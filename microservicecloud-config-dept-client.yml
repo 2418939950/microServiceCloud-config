@@ -32,8 +32,8 @@ eureka:
 info:
   app.name: yidu-microServiceCloud
   company.name: www.yidu.com
-  build.artifactId:  @project.artifactId@
-  build.version: @project.version@
+  build.artifactId:  "@project.artifactId@"
+  build.version: "@project.version@"
 
 ---
 server:
@@ -64,5 +64,5 @@ eureka:
 info:
   app.name: yidu-microServiceCloud
   company.name: www.yidu.com
-  build.artifactId:  @project.artifactId@
-  build.version: @project.version@
+    build.artifactId:  "@project.artifactId@"
+  build.version: "@project.version@"
